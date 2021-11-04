@@ -1,5 +1,5 @@
 @font-face { font-family: Monument-Extended; 
-    src: url('/mer.otf'); }
+    src: url('../mer.otf'); }
 
 body{
     background: linear-gradient(-75deg, rgb(245, 156, 99), rgb(221, 174, 220), rgb(143, 217, 238));
