@@ -1,0 +1,27 @@
+@font-face { font-family: Monument-Extended; 
+    src: url('/mer.otf'); }
+
+body{
+    background: linear-gradient(-75deg, rgb(245, 156, 99), rgb(221, 174, 220), rgb(143, 217, 238));
+    background-size: 300vw;
+    animation: change 10s ease-in-out infinite;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: Monument-Extended;
+    margin-top: 21vw;
+}
+
+@keyframes change{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
